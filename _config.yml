@@ -39,4 +39,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-theme: jekyll-theme-minima
+theme: minima
