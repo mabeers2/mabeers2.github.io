@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-You can use the [editor on GitHub](https://github.com/mabeers2/mabeers2.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+layout: page
+---
+<center><img src="/assets/profile.JPEG" width="200" height="200" alt = "Better Picture Coming Soon"></center>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<center> <font size = "+3"> <b> About Me </b> </font> </center>
 
-### Markdown
+I am graduate student in the Applied Mathematics and Statistics department at the University of California, Santa Cruz working under the supervision of [Dr. Raquel Prado](https://raquel.soe.ucsc.edu). Though I'm currently in the Master's program, I hope to transition to the PhD program at the end of the 2018-2019 academic year. While many areas of mathematics, statistics and computer science fascinate me, I'm particularly interested in the application of Bayesian Statistics and Machine Learning to time series data. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Outside of school I'm an active person. In particular, I'm an avid mountain biker and regularly take advantage of the incredible trails around Santa Cruz. Additionally, I've recently acquired the  exhilarating if exorbitantly expensive hobby of snowboarding. On the quieter side, I enjoy reading and playing the piano. 
 
-```markdown
-Syntax highlighted code block
+A more complete summary of my academic history can be found in my [resume](/assets/resume_website.pdf), and some examples of my work in machine learning and statistics can be found by navigating to the corresponding tabs in the menu bar above. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mabeers2/mabeers2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
