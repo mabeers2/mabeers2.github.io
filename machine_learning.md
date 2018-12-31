@@ -16,7 +16,7 @@ In this problem set, we were asked to:
 
 More details are included in the links below. 
 
-[The assignment]({{ site.url }}/assets/cs242_hw3_assignment.pdf), 
+[The assignment]({{ site.url }}/assets/ml-hw3.pdf), 
 [My solutions]({{ site.url }}/assets/cs242_hw3.pdf), 
 [Code and Data](https://github.com/mabeers2/Selected-School-Work/tree/master/Selected%20Homeworks/ML_HW3)
 
