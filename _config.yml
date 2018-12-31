@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Aspiring data scientist/statistician particularly interested in applications of 
   Bayesian statistics and machine learning to time series data. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mabeers2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mabeers2
 
 # Build settings
@@ -27,16 +27,16 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+Exclude from processing.
+The following items will not be processed, by default. Create a custom list
+to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-theme: minima
+theme: jekyll-theme-minima

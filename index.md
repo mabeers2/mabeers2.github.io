@@ -14,5 +14,3 @@ Outside of school I'm an active person. In particular, I'm an avid mountain bike
 
 A more complete summary of my academic history can be found in my [resume](/assets/resume_website.pdf), and some examples of my work in machine learning and statistics can be found by navigating to the corresponding tabs in the menu bar above. 
 
-
-
