@@ -17,3 +17,5 @@ A more complete summary of my academic history can be found in my [resume](/asse
 
 
 
+
+
