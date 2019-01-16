@@ -7,6 +7,16 @@ permalink: /ML/
 Below I've provided a few examples of my work in Machine Learning.
 
 ***
+
+### Multilayer Perceptron Classifier Implementation
+In this project, I derive the correct equations for fitting a multilayer perceptron classifier. I compare the results of this implementation to the scikit learn implementations of a MLP classifier and a SVM. My implementation achieves an 91% classification accuracy on the Iris dataset, while the scikit learn MLP classifier implementation achieves 96% percent classification accuracy. Accuracy on my approach could be improved by using a better solver, rather than basic gradient descent or possibly by adding a bias term to each layer of the neural network. These changes may be made at a later date. 
+
+[The results]({{ site.url }}/assets/MLPIRIS.html)
+
+**Keywords** MLP Classifier, Neural Network, Gradient Descent, Backpropogation, Python, Support Vector Machine, Jupyter Notebook
+
+***
+
 ### Linear Regression & Naive Bayes Text Classification
 In this problem set, we were asked to:
 
