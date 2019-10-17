@@ -6,12 +6,12 @@ permalink: /stats/
 
 Below I've provided a few examples of my work in statistics. Most of this work is Bayesian and topics covered range from Generalized Linear Models to time series analysis. 
 
+
 ***
 
-### Quantile Spectral Analysis (Fall 2018)
-Below are some slides I created for a presentation on quantile spectral analysis of time series data. The slides provide a comparison of quantile spectral analysis and traditional spectral analysis and then transition to some applied examples of quantile spectral analysis. Quantile spectral analysis of fMRI or EEG data will be a major component of my Master's capstone project. 
-
-[Slides]({{ site.url }}/assets/quantspec_presentation.pdf)
+### Quantile Spectral Analysis (Summer 2019)
+This is my Master's capstone project, in which I compare and contrast a number of approaches to spectral analysis. The project begins with the implementation of frequentist and Bayesian approaches to producing an estimate of the traditional spectral density. Each of these approaches seeks to describe the time series by identifying the dominant frequency components contributing to the mean of the time series. While useful, traditional spectral analysis has some downsides, such as a lack of robustness to outliers. In addition, traditional spectral analysis is incapable of characterizing periodicity anywhere but the mean of the time series. In recognition of these shortcomings, the project then explores quantile spectral analysis methods that allow one to identify the dominant frequency components at a user specified quantile of the time series. While more computationally demanding, we identify datasets where using quantile approaches yields more information about the time series than traditional approaches. The project was completed under the supervision of Dr. Raquel Prado at UCSC.   
+[Capstone Project]({{ site.url }}/assets/final_report_v2.pdf)
 
 **Keywords:** Quantile Spectral Analysis, Time Series Data, R
 

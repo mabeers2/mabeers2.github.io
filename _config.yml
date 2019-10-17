@@ -16,8 +16,8 @@
 title: Mark Beers
 email: mbeers@ucsc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Aspiring data scientist/statistician particularly interested in applications of 
-  Bayesian statistics and machine learning to time series data. 
+  Aspiring data scientist/statistician particularly interested in 
+  Bayesian statistics and explainable artificial intelligence. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mabeers2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mabeers2
