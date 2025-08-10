@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/assets/index.c2ac1a7e.css">
+  </head>
+  <body>
+    <div id="app"></div>
+     <div id="info"></div>
+    <form>
+      <label for="initials">Enter Initials and Select Condition</label><br>
+      <input type="text" id="initials" name="initials"><br>
+
+      <input type="radio" id="e0" name="experiment" value="e0">
+      <label for="e0">demo</label><br>
+
+
+
+    </form>
+
+
+    <button onclick="begin()" class="button-3">Begin Session</button>
+    <script>
+      function begin(){
+        // Confirm confirm that a radio has been checked and that subject specified. 
+        const html_dct = { "e0":"http://localhost:5173/demo.html"}
+        var initials = document.getElementById('initials').value
+        var radios = document.getElementsByTagName('input');
+        var index_checked = -1;
+        var value = -1
+        for (var i = 0; i < radios.length; i++) {
+            if (radios[i].type === 'radio' && radios[i].checked){
+                index_checked = i
+                value = radios[i].value    
+            }
+        }
+        if (index_checked > -1 && initials.length > 0){
+          localStorage.setItem("initials", initials);
+          location.href = html_dct[value];
+        }else{
+          alert("Please Input Initials and Pick an Experiment");
+        }
+        
+      }
+    </script>
+
+  </body>
+</html>
