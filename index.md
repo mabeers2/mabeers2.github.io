@@ -12,7 +12,7 @@ I recently graduated with a Master's degree in Statistics from the University of
 
 Outside of school I'm an active person. In particular, I'm an avid mountain biker and regularly take advantage of the incredible trails around Santa Cruz. Additionally, I've recently acquired the  exhilarating if exorbitantly expensive hobby of snowboarding. On the quieter side, I enjoy reading and playing the piano. 
 
-A more complete summary of my academic history can be found in my [resume](/assets/resume.pdf), and some examples of my work in machine learning and statistics can be found by navigating to the corresponding tabs in the menu bar above.
+A more complete summary of my academic history can be found in my [resume](/assets/resume.pdf), and some examples of my work in machine learning and statistics can be found by navigating to the corresponding tabs in the menu bar above. Wow this is really old.
 
 
 
