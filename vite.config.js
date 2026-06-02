@@ -1,5 +1,15 @@
 import { defineConfig } from 'vite'
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  base: '/mabeers2.github.io/', // Must have leading and trailing slashes
+  base: '/mabeers2.github.io/', 
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html')      },
+    },
+  },
 })
