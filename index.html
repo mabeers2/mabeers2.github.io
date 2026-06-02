@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" crossorigin href="/mabeers2.github.io/assets/index--gQ6huEo.css">
+  </head>
+  <body>
+    <header>
+      <nav class='navbar'>
+        <a href="#" class = 'nav-branding'>Mark Beers</a>
+        <ul class='nav-menu'>
+          <li class='nav-item'>  
+            <a href="#About" class='nav-link'>About Me</a>
+          </li> 
+          <li class='nav-item'>  
+            <a href="#Publications" class='nav-link'>Publications</a>
+          </li>           
+          <li class='nav-item'>  
+            <a href="#Projects" class='nav-link'>Projects</a>
+          </li> 
+          <li class='nav-item'>  
+            <a href="#Contact" class='nav-link'>Contact</a>
+          </li> 
+        </ul>      
+        <div class='hamburger'>
+          <span class='bar'></span>
+          <span class='bar'></span>
+          <span class='bar'></span>
+        </div>    
+      </nav>
+    </header>
+    <script src="./src/main.js"></script>
+    <div class='content' id = "About">
+      <div class='section' >
+        <h2>About Me</h2>
+        <div class="circle-container">
+          <img src="profile.JPEG" alt="This is me." width="200" height="200">
+        </div>
+        <p>Hi! I’m Mark. </p>
+
+        <p>I am an early career researcher recently graduated from UC Irvine with a PhD in Cognitive Science. While at UCI, I had the privilege of being advised by <a href = "https://sites.socsci.uci.edu/~zpizlo/" class="paper-link">Dr. Zygmunt Pizlo</a>. My research focuses on (1) finding difficult computational problems that humans exhibit remarkable success on and (2) proposing models for how humans succeed on those tasks. In my research, a task on which humans exhibit surprising success is often difficult for one of two reasons.</p>
+
+        <p>First, the task may involve finding a high quality solution to a combinatorial optimization problem. The Traveling Salesperson Problem (TSP) is a good example of this. Humans produce remarkably accurate TSP tours remarkably quickly. See the 2022 paper in the publications section for a proposal on how this is achieved. </p>
+
+        <p>Second, a task may be difficult because it is ill-posed. Monocular 3D reconstruction is a good example of this. For any given 2D image, there are an infinite number of 3D configurations that could have generated that image (see this <a href="http://shapebook.psych.purdue.edu/1.3/" class='paper-link'>Ames chair demo</a>). Yet, when monocularly viewing an object, subjects report a 3D percept that is both unique and often accurate. Choosing a unique solution (a 3D shape) from the set of all possible solutions requires combining the data (the image) with a priori beliefs imposing a preference for certain 3D interpretations over others. The crux of understanding human monocular 3D reconstruction therefore revolves around characterizing those a priori beliefs. The majority of my research at UCI focused on monocular 3D reconstruction and emphasized the role of symmetry. See the 2024 paper or the “Demo of Experiment Interface” link in the publications section below. </p>
+
+        <p>Outside of research I enjoy spending time outdoors, particularly climbing and mountain biking. I also read a lot of science fiction, fantasy and mystery books. </p>
+
+        <p>Feel free to explore this website to see some examples of my work! I am currently looking for employment, either as a researcher or leveraging my statistics or optimization background. </p>
+      </div>
+
+      <div class='section' id ='Publications'>
+        <h2>Publications</h2>
+        <div class = "post">
+          <div class = 'card-body'>
+            <h4>Perception of 3D mirror-symmetrical shapes from perspective images</h4>
+            <p class='borderless'><i>Mark Beers (CURRENTLY UNDER REVIEW)</i></p>
+            <div class='button-grid'>
+              <a class="grid-btn" href="https://mabeers2.github.io/ShapeReconstructionDemo/">Demo of Experiment Interface</a>
+              <a class="grid-btn" href = "https://github.com/mabeers2/two-box-stimuli">Stimuli Generation</a>
+            </div>
+          </div>
+        </div>
+
+        <div class = "post">
+          <div class = 'card-body'>
+            <a class = "paper-link" href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1265966/full"><h4>Monocular reconstruction of shapes of natural objects from orthographic and perspective images</h4></a>
+            <p class='borderless'><i>Mark Beers & Zygmunt Pizlo (2024)</i></p>
+          </div>
+        </div>
+
+        <div class = "post">
+          <div class = 'card-body'>
+            <a class = "paper-link" href="https://link.springer.com/article/10.1007/s42113-022-00155-0"><h4>Traveling Salesperson Problem with Simple Obstacles: The Role of Multidimensional Scaling and the Role of Clustering</h4></a>
+            <p class='borderless'><i>Jacob VanDrunen, Kevin Nam, Mark Beers & Zygmunt Pizlo (2022)</i></p>
+          </div>
+        </div>
+      </div>
+
+      <div class='section' id = "Projects">
+        <h2>Projects</h2>
+        <div class = "post">
+          <div class = 'card-body'>
+            <a class = "paper-link" href="https://github.com/mabeers2/dca"><h4>What is the best route through Disney California Adventure?</h4></a>
+            <p class='borderless'>This is framed as an integer linear program, where the objective is to find the maximum utility cycle through a subset of the total rides, subject to the constraint that the total time in the park remains less than some user defined maximum time.</p>
+          </div>
+        </div>
+     
+      </div>
+
+      <div class='section'>
+        <h2>Education & Teaching</h2>
+        <div class='flex-container'>
+          <div class='flex-item'>
+            <h4>Education</h4>
+            <p> Cognitive Science, PhD, UC Irvine, 2026</p>
+            <p> Statistical Science, MS, UC Santa Cruz, 2021</p>
+            <p> Statistics, BS, UC Berkeley, 2017</p>
+            <p> Applied Mathematics, BA, UC Berkeley, 2017</p>
+          </div>
+          <div class='flex-item'>
+            <h4>Lead Instructor</h4>
+            <p> Cognitive Science 10C: Statistical Models (UCI)</p>
+            <h4>Teaching Assistant</h4>
+            <p> Cognitive Science 10A: Exploratory Data Analysis (UCI)</p>
+            <p> Cognitive Science 10B: Probability and Inference (UCI)</p>
+            <p> Psychology, Statistics and many more...</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class='section' id = "Contact">
+        <h2>Contact</h2>
+        <p>Email: beersm [AT] uci [DOT] edu</p> 
+        <p>Github: <a class = 'paper-link' href="https://github.com/mabeers2">https://github.com/mabeers2</a></p>
+        
+      </div>
+    </div>
+
+  </body>
+</html>
